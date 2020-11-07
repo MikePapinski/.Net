@@ -23,3 +23,4 @@ Przekroczenie terminu o *n* zajęć wiąże się z karą:
 - punkty uzyskania za realizację zadania są dzielone przez *2<sup>n</sup>*.
 
 ### Punkty za zadanie: 5
+# odwrotna-notacja-polska-geraltdwf Kamil Mogiłka

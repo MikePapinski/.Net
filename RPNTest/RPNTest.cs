@@ -65,10 +65,36 @@ namespace RPNTest {
 			Assert.That(result, Is.EqualTo(1));
 		}
 		[Test]
+		public void DivisionByZero()
+		{
+			Assert.Throws<DivideByZeroException>(() => _sut.EvalRPN("10 0 /"));
+		}
+		[Test]
 		public void ComplexExpression() {
 			var result = _sut.EvalRPN("15 7 1 1 + - / 3 * 2 1 1 + + -");
 
 			Assert.That(result, Is.EqualTo(4));
+		}
+		[Test]
+		public void PowTest()
+		{
+			var result = _sut.EvalRPN("3 3 ^ 5 5 * +");
+
+			Assert.That(result, Is.EqualTo(52));
+		}
+		[Test]
+		public void StrongTest()
+		{
+			var result = _sut.EvalRPN("5 ! 5 5 * *");
+
+			Assert.That(result, Is.EqualTo(3000));
+		}
+		[Test]
+		public void AbsTest()
+		{
+			var result = _sut.EvalRPN("-40 abs 10 *");
+
+			Assert.That(result, Is.EqualTo(400));
 		}
 	}
 }
