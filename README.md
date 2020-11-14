@@ -24,3 +24,4 @@ Przekroczenie terminu o *n* zajęć wiąże się z karą:
 
 ### Punkty za zadanie: 5
 # odwrotna-notacja-polska-geraltdwf Kamil Mogiłka
+# .Net
