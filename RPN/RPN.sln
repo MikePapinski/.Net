@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPNCalulator", "RPN\RPNCalu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPNTest", "..\RPNTest\RPNTest.csproj", "{A78D9FAF-B9BD-4C4E-9413-00D9A548CF17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{A753FA9F-B3B0-4962-8902-ACC4FFEE6E51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A78D9FAF-B9BD-4C4E-9413-00D9A548CF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A78D9FAF-B9BD-4C4E-9413-00D9A548CF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A78D9FAF-B9BD-4C4E-9413-00D9A548CF17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A753FA9F-B3B0-4962-8902-ACC4FFEE6E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A753FA9F-B3B0-4962-8902-ACC4FFEE6E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A753FA9F-B3B0-4962-8902-ACC4FFEE6E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A753FA9F-B3B0-4962-8902-ACC4FFEE6E51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

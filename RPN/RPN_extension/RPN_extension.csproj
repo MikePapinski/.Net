@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>RPN_extension.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\RPNTest\RPNTest.csproj" />
+    <ProjectReference Include="..\RPN\RPNCalulator.csproj" />
+  </ItemGroup>
+
+</Project>

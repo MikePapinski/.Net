@@ -29,7 +29,7 @@ namespace RPNCalulator {
 			};
 			_singleOperationFunction = new Dictionary<string, Func<int, int>>
 			{
-				["!"] = (fst) => Strong(fst),
+				["!"] = (fst) => Factorial(fst),
 				["abs"] = (fst) => (Math.Abs(fst))
 			};
 
@@ -83,7 +83,7 @@ namespace RPNCalulator {
 
 		
 
-		private int Strong(int input)
+		private int Factorial(int input)
 		{
 			if(input == (1 | 0))
 			{
@@ -91,7 +91,7 @@ namespace RPNCalulator {
 			}
 			else
 			{
-				return input * Strong(input - 1);
+				return input * Factorial(input - 1);
 			}
 
 		}
